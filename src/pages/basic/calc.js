@@ -27,7 +27,8 @@ export default function Calc() {
                 return setResult(Number(num1) / Number(num2))
             case "%" :
                 return setResult(Number(num1) % Number(num2))
-
+            default :
+                alert("히히히히")
         }
     }
 
